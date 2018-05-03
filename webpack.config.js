@@ -16,6 +16,7 @@ module.exports = {
         filename: 'bundle.min.js',
         path: path.resolve(__dirname, 'dist')
     },
+    watch: true,
     module: {
         rules: [{
                 test: /\.js$/,
